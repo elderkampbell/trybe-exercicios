@@ -1,0 +1,58 @@
+body{
+    background-color: darkgrey;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: red;
+}
+
+h1{
+    font-size: 40px;
+    border: 1px solid black;
+
+}
+
+ol{
+    background-color: yellow;
+    color: green;
+}
+li{
+    font-size: 20px;
+}
+em{
+    font-weight: 900;
+}
+
+.impar{
+text-transform: uppercase;
+color: black;
+}
+
+#primeiros3{
+    color: blue;
+}
+
+.java{
+    background-color: pink;
+}
+
+.stack:hover{
+    color: orange;
+    font-weight: 900;
+}
+.w3:hover{
+    color: green;
+    font-weight: 900;
+}
+.mdn:hover{
+    color: black;
+    font-weight: 900;
+}
+.devdocs:hover{
+    color: yellow;
+    font-weight: 900;
+}
+.trybe:hover{
+    color: rgb(65, 151, 65);
+    font-weight: 900;
+}
