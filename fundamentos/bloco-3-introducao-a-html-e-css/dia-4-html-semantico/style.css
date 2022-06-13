@@ -1,4 +1,4 @@
-      h1 {
+      #header {
         text-align: center;
       }
 
@@ -21,7 +21,7 @@
         text-align: center;
         width: 300px;
         display: inline-block;
-        align-items: center;
+
       }
 
       .third {
@@ -31,16 +31,20 @@
         text-align: center;
         width: 300px;
         display: inline-block;
-        align-self: center;
 
-      }
-
-      #main {
-        display: block;
-        text-align: center;
       }
 
       .ulitems{
         display: inline-block;
         
+      }
+
+      #all{
+        display: block;
+        text-align: center;
+
+      }
+
+      ul{
+        list-style: none;
       }
