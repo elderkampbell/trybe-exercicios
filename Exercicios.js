@@ -71,6 +71,7 @@ else
 
 //Exercicio 4: Operadores lógicos
 
+// 
 //[✔️] 1- Crie uma constante chamada "currentHour" que recebe um número entre 4 e 24 de sua escolha, para representar as horas do dia.
 //[✔️] 2- Crie uma variável chamada "message" que, inicialmente, é uma string vazia.
 //[✔️] 3- Implemente condicionais para que:
@@ -102,3 +103,14 @@ else if (currentHour >= 4 && currentHour <= 11)
 console.log(message) */
 
 
+//[] 1- Crie uma variável chamada "weekDay" que recebe a string "quarta-feira".
+//[] 2- Implemente condicionais para que:
+//    • Se nossa variável "weekDay" for "segunda-feira", "terça-feira", "quarta-feira", "quinta-feira" ou "sexta-feira", imprima "Oba, mais um dia de aprendizado na Trybe >:D".
+//    • Se for algum dia de fim de semana, imprima "FINALMENTE, descanso merecido UwU".
+//    • Experimente trocar o valor da string ou até mesmo montar seu próprio algoritmo. Esse assunto é muito importante para seu aprendizado :).
+
+let weekDay = "quarta-feira"
+if(weekDay === "segunda-feira" || "terça-feira" || "quarta-feira" || "quinta-feira" || "sexta-feira")
+{console.log("Oba, mais um dia de aprendizado na Trybe >:D")}
+else if(weekDay )
+{console.log("FINALMENTE, descanso merecido UwU")}
